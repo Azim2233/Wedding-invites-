@@ -1,0 +1,61 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefefe;
+  color: #333;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.hero {
+  background-image: url('https://invitesite.ru/static/media/azizmadina-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.overlay h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.overlay p {
+  font-size: 1.5em;
+}
+
+.details {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.timer-section {
+  background-color: #f3f3f3;
+  padding: 30px 20px;
+}
+
+#countdown {
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+}
